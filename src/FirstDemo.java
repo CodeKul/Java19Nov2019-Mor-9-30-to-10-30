@@ -1,6 +1,6 @@
 public class FirstDemo {
 
-    int b=20;
+    private static int b=20;
 
     int addition(float a){
       //  int a=10;
