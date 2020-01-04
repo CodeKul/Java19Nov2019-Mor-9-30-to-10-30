@@ -2,7 +2,9 @@ package polymorphism;
 
 public class OverridingDemo extends OverloadingDemo{
 
-    private int addition(int a,int b){
+
+
+    private int addition(int a, int b){
         System.out.print("method from override demo class : ");
         return (a+b);
     }

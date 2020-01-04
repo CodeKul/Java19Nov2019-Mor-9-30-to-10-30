@@ -2,6 +2,8 @@ package polymorphism;
 
 public class OverloadingDemo {
 
+    OverloadingDemo(){}
+
     OverloadingDemo(int a){
 
     }
