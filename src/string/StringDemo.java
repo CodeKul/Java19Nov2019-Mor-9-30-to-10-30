@@ -16,7 +16,7 @@ public class StringDemo {
         System.out.println("s1 : "+s1.hashCode());
         System.out.println("s2 : "+s2.hashCode());*/
 
-
+        System.out.println(System.currentTimeMillis());
         if (s==s2) {
             System.out.println(s + "==" + s2);
 
