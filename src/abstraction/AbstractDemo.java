@@ -2,6 +2,9 @@ package abstraction;
 
 public abstract class AbstractDemo {
 
+    AbstractDemo(){
+    }
+
     abstract void add();
 
     void sub(){
