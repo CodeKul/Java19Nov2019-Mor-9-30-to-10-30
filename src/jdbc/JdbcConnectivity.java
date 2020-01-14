@@ -41,15 +41,10 @@ public class JdbcConnectivity {
         return i;
     }
 
-    private void checkDateTime() throws Exception {
-
-        Calendar calendar=Calendar.getInstance();
-
-    }
 
     public static void main(String[] args) throws Exception {
         JdbcConnectivity connectivity=new JdbcConnectivity();
         //connectivity.getDataFromDatabase();
-        connectivity.checkDateTime();
+        connectivity.getDataFromDatabase();
     }
 }
